@@ -1,0 +1,565 @@
+﻿ body{
+	margin:0;
+	padding:0;
+	background-image:url("../img/food.jpg");
+	background-size:100% auto;
+	font-family: "Comfortaa", sans-serif;	
+}
+
+.login{
+	width: 320px;
+	height: 420px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	left: 37%;
+	top:18%;
+	box-sizing: border-box;
+	padding:14px 40px;
+	transform:translate (-50%, -50%);
+}
+
+.usuario{
+
+	position:absolute;
+	border-radius: 50%;
+	top: -13%;
+	left: 34%;
+}
+
+.login h1{
+	color: #1C1C1C;
+	margin:0;
+	padding:0;
+	padding-left:0;
+	padding-bottom:20px;
+	letter-spacing: 9px;
+	text-align: center;
+	font-size:25px;
+	margin-top:20%;
+}
+
+.login p {
+	margin:0;
+	padding:0;
+	font-weight: bold;
+	color: #363636;
+}
+
+.login input {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.login  input[type="text"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 25px;
+	color: #363636;
+	font-size:14px;
+}
+
+.login input[type="submit"]{
+	border:none;
+	outline:none;
+	height:38px;
+	color: #fff;
+	background-color:#363636;
+	border-radius:15px;
+	transition: 0.2s;
+	font-size:15px;
+	margin-top:-1%;
+}
+
+.login input[type="submit"]:hover{
+	cursor: pointer;
+	color:white;
+	background: #CD0000;
+	transition: 0.3s;
+}
+
+.login a{
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 24px;
+	color: #828282;
+	transition: 0.2s;
+	text-decoration: underline; 
+}
+
+.login a:hover{
+	transition:0.2s;
+	color: #EE0000;
+}
+
+/*CADASTRO*/
+
+.cadastro{
+	width: 500px;
+	height: 550px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	left: 31%;
+	top:10%;
+	box-sizing: border-box;
+	padding:1px 60px;
+	transform:translate (-50%, -50%);
+}
+
+.cadastro h1{
+	color: #1C1C1C;
+	margin:0;
+	padding:0;
+	padding-left:0;
+	padding-bottom:20px;
+	letter-spacing: 9px;
+	text-align: center;
+	font-size:25px;
+	margin-top:16%;
+	height:8%;
+}
+
+.usuario1{
+
+	position:absolute;
+	border-radius: 50%;
+	top: -10%;
+	left: 40%;
+}
+
+.cadastro p {
+	margin:0;
+	padding:0;
+	font-weight: bold;
+	color: #363636;
+}
+
+.cadastro input {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.cadastro  input[type="text"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 23px;
+	color: #363636;
+	font-size:14px;
+}
+
+.cadastro input[type="submit"]{
+	border:none;
+	outline:none;
+	height:38px;
+	color: #fff;
+	background-color:#363636;
+	border-radius:15px;
+	transition: 0.2s;
+	font-size:15px;
+	margin-top:6%;
+}
+
+.cadastro input[type="submit"]:hover{
+	cursor: pointer;
+	background: #CD0000;
+	color:white;
+	transition: 0.3s;
+}
+
+.cadastro a{
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+	color: #828282;
+	transition: 0.2s;
+	text-decoration: underline; 
+}
+
+.cadastro a:hover{
+	transition:0.2s;
+	color: #EE0000;
+}
+
+/*CADASTRO DE RESTAURANTE*/
+
+
+.cadrestaurante{
+	width: 500px;
+	height: 570px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	left: 31%;
+	top:10%;
+	box-sizing: border-box;
+	padding:1px 50px;
+	transform:translate (-50%, -50%);
+}
+
+.cadrestaurante h1{
+	color: #1C1C1C;
+	margin:0;
+	padding:0;
+	padding-left:0;
+	padding-bottom:20px;
+	letter-spacing: 9px;
+	text-align: center;
+	font-size:22px;
+	margin-top:14%;
+	height:9%;
+}
+
+.usuario2{
+
+	position:absolute;
+	border-radius: 50%;
+	top: -10%;
+	left: 40%;
+}
+
+.cadrestaurante1{
+
+	position:absolute;
+	border-radius: 50%;
+	top: -10%;
+	left: 40%;
+}
+
+.cadrestaurante p {
+	margin:0;
+	padding:0;
+	font-weight: bold;
+	color: #363636;
+}
+
+.cadrestaurante input {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.cadrestaurante  input[type="text"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 23px;
+	color: #363636;
+	font-size:14px;
+}
+
+.cadrestaurante input[type="submit"]{
+	border:none;
+	outline:none;
+	height:38px;
+	color: #fff;
+	background-color:#363636;
+	border-radius:15px;
+	transition: 0.2s;
+	font-size:15px;
+	margin-top:-7%;
+}
+
+.cadrestaurante input[type="submit"]:hover{
+	cursor: pointer;
+	color: white;
+	background: #CD0000;
+	transition: 0.3s;
+}
+
+/*PRINCIPAL*/
+
+.body1 {
+	overflow-x: hidden;
+	margin:0;
+	padding:0;
+	background-color: #E8E8E8;
+	background-image: none;
+	font-family: "Comfortaa", sans-serif;
+	
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	box-shadow: 0px 0px 2px #000;
+	background-color: #EE0000;
+}
+
+#menu{
+	
+	width: 800px;
+	padding-top: 1px;
+	margin-left: 26%;
+}
+
+#menu ul a{
+	color:#FFF8DC;
+	text-decoration:none;
+	font-size: 20px;
+	padding: 14px 63px 7px 62px;
+	
+}
+
+#menu ul a:hover{
+	color:#EE0000;
+	background:#E8E8E8;
+	transition:0.3s
+}
+
+#comida1 {
+	
+	position:absolute;
+	background-image: url("../img/comida1.jpg");
+	background-size:100% auto;
+	width:25%;
+	height:29%;
+	margin-left:7%;
+	margin-top:6%;
+	color: #ffffff;
+	text-align:center; 
+}
+
+#comida1:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 0.3s;
+}
+
+#comida2 {
+	position:absolute;
+	background-image: url("../img/comida2.jpg");
+	background-size:100% auto;
+	width:25%;
+	height:29%;
+	margin-left:38%;
+	margin-top:6%;
+	color: #ffffff;
+	text-align:center; 
+}
+
+#comida2:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 0.3s;
+}
+
+#comida3 {
+	position:absolute;
+	background-image: url("../img/comida3.jpg");
+	background-size:100% auto;
+	width:25%;
+	height:29%;
+	margin-left:69%;
+	margin-top:6%;
+	color: #ffffff;
+	text-align:center; 
+}
+
+#comida3:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 0.3s;
+}
+
+#comida4 {
+	position:absolute;
+	background-image: url("../img/comida4.jpg");
+	background-size:100% auto;
+	width:25%;
+	height:29%;
+	margin-left:7%;
+	margin-top:33%;
+	color: #ffffff;
+	text-align:center; 
+}
+
+#comida4:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 0.3s;
+}
+
+#comida5 {
+	position:absolute;
+	background-image: url("../img/comida5.jpg");
+	background-size:100% auto;
+	width:25%;
+	height:29%;
+	margin-left:38%;
+	margin-top:33%;
+	color: #ffffff;
+	text-align:center; 
+}
+
+#comida5:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 0.3s;
+}
+
+#comida6 {
+	position:absolute;
+	background-image: url("../img/comida6.jpg");
+	background-size:100% auto;
+	width:25%;
+	height:29%;
+	margin-left:69%;
+	margin-top:33%;
+	color: #ffffff;
+	text-align:center; 
+}
+
+#comida6:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 0.3s;
+}
+
+#interna1 {
+	top:85%;
+	position:absolute;
+	background-color: #EE0000;
+	font-size:18px;
+	padding-top: 4%;
+	width:25%;
+	height:20%;
+	margin-left:37%;
+	margin-top:2%;
+	color: yellow;
+	text-align:center; 
+}
+
+footer{
+	position:absolute;
+	width:80%;
+	height:20px;
+	margin-left:18%;
+	background-color:#E8E8E8;
+	color:black;
+	margin-top:830px;
+	text-align:right;	
+}
+
+#a1{
+	position:absolute;
+	width:100%;
+	height:100%;
+	margin-left:-50%;
+	top:0%;
+}
+
+#p1{
+	color:#EE0000;
+	font-size: 18px;
+	margin-top: -11%;
+	text-align: center;
+}
+
+#a2{
+	background-color: black;
+	position:absolute;
+	width:50%;
+	height:50%;
+	margin-left:-50%;
+	top:0%;
+}
+
+#entrar1{
+	border: 2px solid #EE0000;
+	color:#E8E8E8;
+	margin-top:1%;
+	background-color:#EE0000;
+	text-align: center;
+	width: 65px;
+	height:37px;
+	padding-top: 1px;
+	margin-left: 93%;
+}
+
+#entrar1 p{
+	font-size: 18px;
+	margin-top: 7px;
+}
+
+#entrar1:hover{
+	color: #EE0000;
+	background:#E8E8E8;
+	transition:0.3s;
+}
+
+#a3{
+	background-color:none;
+	position:absolute;
+	width:71px;
+	height:40px;
+	margin-left:-3%;
+	top:18%;
+}
+
+#entrar2{
+	border: 2px solid #EE0000;
+	color:#E8E8E8;
+	margin-top:1%;
+	background-color:#EE0000;
+	text-align: center;
+	width: 80px;
+	height:37px;
+	padding-top: 1px;
+	margin-left: 93%;
+}
+
+#entrar2 p{
+	font-size: 18px;
+	margin-top: 7px;
+}
+
+#entrar2:hover{
+	color: #EE0000;
+	background:#E8E8E8;
+	transition:0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

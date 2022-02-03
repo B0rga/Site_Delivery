@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Delivery</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+
+
+</head>
+	<body>
+		<img img vspace="8px" hspace="4px" width="250px" src="../img/nome.png"/>
+			<div class= "cadrestaurante">
+				<img src= "../img/usuario2.png" class="usuario1" width="100" height="100" alt="">
+					<h1>CADASTRO DE RESTAURANTE</h1>
+
+					<form action= "../php/dadosr.php" method="post">
+
+					<p>Nome do restaurante</p>
+						<input type= "text" name="nomer" placeholder= "Digite o nome do restaurante">
+					<p>Telefone do restaurante</p>
+						<input type= "text" name="telefoner" placeholder= "Digite o número de telefone do restaurante">
+					<p>CNPJ</p>
+						<input type = "text" name="cnpj" placeholder="Digite o CPNJ">
+					<p>Endereço</p>
+						<input type = "text" name="enderecor" placeholder="Digite o endereço. Ex: *Cidade* *Rua* *número*">
+					<p>Senha de restaurante</p>
+						<input type= "password" name="senhar" placeholder= "Digite uma senha para acessar seu restaurante">
+
+								<input type= "submit" value= "Finalizar Cadastro do restaurante" name="Submit" id="frm1_submit"/>
+					
+					</form>
+			</div>
+	</body>
+</html>
